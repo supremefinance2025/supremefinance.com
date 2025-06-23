@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supreme Finance - Loan Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* [Previous CSS styles remain exactly the same] */
+        /* ... */
+    </style>
+</head>
+<body>
+    <!-- [Previous header, nav, and other elements remain the same until the download section] -->
+    <!-- ... -->
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <div class="download-section">
+                <h3><i class="fas fa-download"></i> Download Forms</h3>
+                <ul class="form-list">
+                    <li>
+                        <a href="public-servants-loan-application.pdf" download="SupremeFinance_PublicServantsLoanApplication.pdf">
+                            <i class="fas fa-file-pdf"></i> Public Servants Loan Application
+                        </a>
+                    </li>
+                    <li>
+                        <a href="teachers-loan-application.pdf" download="SupremeFinance_TeachersLoanApplication.pdf">
+                            <i class="fas fa-file-pdf"></i> Teachers Loan Application
+                        </a>
+                    </li>
+                    <li>
+                        <a href="repayment-schedule.pdf" download="SupremeFinance_RepaymentSchedule.pdf">
+                            <i class="fas fa-file-pdf"></i> Repayment Schedule
+                        </a>
+                    </li>
+                    <li>
+                        <a href="statec-form.pdf" download="SupremeFinance_StatecForm.pdf">
+                            <i class="fas fa-file-pdf"></i> Statec Form
+                        </a>
+                    </li>
+                    <li>
+                        <a href="employee-deduction-advice.pdf" download="SupremeFinance_EmployeeDeductionAdvice.pdf">
+                            <i class="fas fa-file-pdf"></i> Employee Deduction Advice
+                        </a>
+                    </li>
+                </ul>
+                <div class="form-upload">
+                    <h4><i class="fas fa-upload"></i> Upload New Form</h4>
+                    <input type="file" id="formUpload" accept=".pdf,.doc,.docx" style="display: none;">
+                    <button id="uploadFormBtn"><i class="fas fa-cloud-upload-alt"></i> Select File</button>
+                    <div class="upload-details">
+                        <p>Accepted formats: PDF, DOC, DOCX</p>
+                        <p>Max size: 5MB</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- [Rest of the content remains the same] -->
+        <!-- ... -->
+    </div>
+
+    <!-- [Footer and scripts remain the same] -->
+    <!-- ... -->
+
+    <script>
+        // [JavaScript remains the same]
+        // ...
+    </script>
+</body>
+</html>
